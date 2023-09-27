@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body>
+    <style>
+        table,
+        td,
+        th {
+            border: 2px solid black;
+        }
+
+        #reg {
+            margin: 32px 350px;
+        }
+    </style>
+    <h2>Registration Form</h2>
+    <table id="collapseTable">
+        <form action="#">
+            <tr>
+                <td>
+                    <label for="fname">First Name: </label>
+                </td>
+                <td>
+                    <input type="text" id="fname" size="50" size="50">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="lname">Last Name: </label>
+                </td>
+                <td>
+                    <input type="text" id="lname" size="50">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">Email</label>
+                </td>
+                <td>
+                    <input type="text" id="email" size="50">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pass">Password</label>
+                </td>
+                <td>
+                    <input type="password" id="pass" size="50">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="rpass">Re-enter Password</label>
+                </td>
+                <td>
+                    <input type="password" id="rpass" size="50">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="gen">Gender</label>
+                </td>
+                <td>
+                    <input type="text" id="gen" size="50">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="age">Age: </label>
+                </td>
+                <td>
+                    <input type="number" id="age" size="50">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="num">Phone No.: </label>
+                </td>
+                <td>
+                    <input type="number" id="num" size="50">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="add">Address</label>
+                </td>
+                <td>
+                    <textarea name="add" id="" cols="47" rows="10"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="state">State</label>
+                </td>
+                <td>
+                    <input type="text" id="state" size="50">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="country">Country</label>
+                </td>
+                <td>
+                    <select name="country" id="country">
+                        <option value="choose">Choose your country</option>
+                        <option value="ind">India</option>
+                        <option value="eng">England</option>
+                        <option value="afg">Afganistan</option>
+                        <option value="ban">Bangladesh</option>
+                        <option value="us">USA</option>
+                        <option value="dub">Dubai</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="lang">Languages Known</label>
+                </td>
+                <td>
+                    <input type="checkbox" id="lang1">
+                    <label for="lang1">English</label>
+
+                    <input type="checkbox" id="lang2">
+                    <label for="lang2">Hindi</label>
+
+                    <input type="checkbox" id="lang3">
+                    <label for="lang3">Kannada</label>
+
+                    <input type="checkbox" id="lang4">
+                    <label for="lang4">Telugu</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox">
+                    <label for="">Hereby I declare that all the informations are correct.</label>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    Login to <a href="ethnus.com">Ethnus</a> website.
+                </td>
+            </tr>
+        </form>
+    </table>
+    <input type="submit" value="Register" id="reg">
+</body>
+
+</html>

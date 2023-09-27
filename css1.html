@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .table {
+            width: 50%;
+            color: white;
+            background-color: rgb(70, 16, 16);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 400px;
+            margin-top: 70px;
+            /* border: 1px solid black; */
+            border-radius: 5px;
+        }
+
+        body {
+            background-color: rgb(105, 45, 45);
+        }
+
+        /* 
+th,
+td {
+    padding: 15px;
+} */
+
+        table {
+            border-spacing: 30px;
+        }
+
+
+        button {
+            background-color: white;
+            color: black;
+            font-size: 18px;
+            margin-top: 520px;
+            padding: 7px 40px;
+            border-radius: 5px;
+        }
+
+        #gen1 {
+            column-gap: 4px;
+        }
+
+        input[type="radio"] {
+            /* margin: 0 10px 0 10px; */
+            margin-left: 18px;
+        }
+
+        select {
+            padding: 0px 8px;
+        }
+
+        input[type="text"] {
+            outline: none;
+        }
+
+        input[type="password"] {
+            outline: none;
+        }
+    </style>
+    <div class="table2">
+        <div class="table">
+            <table id="collapseTable">
+                <form action="#">
+                    <div class="tr">
+                        <tr class="tr1">
+                            <td>
+                                <label for="fname">Name: </label>
+                            </td>
+                            <td>
+                                <input type="text" id="fname" size="50">
+                            </td>
+                        </tr>
+                    </div>
+                    <div class="tr">
+                        <tr>
+                            <td>
+                                <label for="email">Email: </label>
+                            </td>
+                            <td>
+                                <input type="text" id="email" size="50">
+                            </td>
+                        </tr>
+                    </div>
+                    <div class="tr">
+                        <tr>
+                            <td>
+                                <label for="pass">Password:</label>
+                            </td>
+                            <td>
+                                <input type="password" id="pass" size="50">
+                            </td>
+                        </tr>
+                    </div>
+
+                    <div class="tr">
+                        <tr>
+                            <td>
+                                <label for="num">Phone No.: </label>
+                            </td>
+                            <td>
+                                <input type="text" id="num" size="50">
+                            </td>
+                        </tr>
+                    </div>
+                    <div class="tr">
+                        <tr>
+                            <td>
+                                <label for="gen">Gender:</label>
+                            </td>
+                            <td class="gen">
+                                <input type="radio" id="gen1">
+                                <label for="gen1">Male</label>
+                                <input type="radio" id="gen2">
+                                <label for="gen2">Female</label>
+                                <input type="radio" id="gen3">
+                                <label for="gen3">Other</label>
+
+                            </td>
+                        </tr>
+                    </div>
+
+                    <div class="tr">
+                        <tr>
+                            <td>
+                                <label for="lang">Language:</label>
+                            </td>
+                            <td>
+                                <select name="lang" id="lang">
+                                    <option value="choose">Select language</option>
+                                    <option value="ind">English</option>
+                                    <option value="eng">Hindi</option>
+                                    <option value="afg">Kannada</option>
+                                    <option value="ban">Telugu</option>
+                                    <option value="us">Tamil</option>
+                                    <option value="dub">Bengali</option>
+                                    <option value="dub">Odia</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </div>
+
+                    <div class="tr">
+                        <tr>
+                            <td>
+                                <label for="code">Zip Code: </label>
+                            </td>
+                            <td>
+                                <input type="text" id="code" size="50">
+                            </td>
+                        </tr>
+                    </div>
+
+                    <div class="tr">
+                        <tr>
+                            <td>
+                                <label for="about">About: </label>
+                            </td>
+                            <td>
+                                <textarea name="about" id="about" cols="47" rows="10"></textarea>
+                            </td>
+                        </tr>
+                    </div>
+
+                </form>
+
+            </table>
+            <button>Register</button>
+        </div>
+    </div>
+</body>
+
+</html>
